@@ -1,0 +1,8 @@
+RegisterUser 1 abhi
+RegisterUser 2 cbv
+UploadPost 1 "Test Post 1"
+UploadPost 1 "Test Post x"
+UploadPost 2 "Test Post 1"
+InteractionWithUser FOLLOW 2 1
+InteractionWithUser UNFOLLOW 2 1
+ShowFeed 1
